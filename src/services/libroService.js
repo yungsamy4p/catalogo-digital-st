@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 const cheerio = require('cheerio');
 
-const htmlPath = path.join(__dirname, '../../public/catalogo.html');
+const htmlPath = path.join(__dirname, '../../actividad_2_6_cheerio/public/catalogo.html');
 
 class LibroService {
     async obtenerTodosLosLibros() {
