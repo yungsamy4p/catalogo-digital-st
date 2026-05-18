@@ -1,0 +1,15 @@
+{
+  "name": "actividad_2_6_cheerio",
+  "version": "1.0.0",
+  "description": "Exploración de JavaScript en Backend + Cheerio - IP Santo Tomás",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.19.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
