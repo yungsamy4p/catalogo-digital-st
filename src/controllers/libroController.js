@@ -43,7 +43,6 @@ class LibroController {
             const libros = await libroService.obtenerTodosLosLibros();
             const filtrados = libros.filter(l => l.categoria.toLowerCase() === categoria.toLowerCase());
 
-            // Si la categoría no arroja ningún resultado, mandamos un 404 exacto como la pauta
             if (filtrados.length === 0) {
                 return res.status(404).json({
                     exito: false,
