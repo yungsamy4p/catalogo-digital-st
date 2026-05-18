@@ -26,3 +26,22 @@ actividad_2_6_cheerio/
    npm install
 
    node app.js
+
+
+## ENDPOINTS
+
+Ver todo el catálogo:
+
+URL: http://localhost:3000/api/libros
+
+Ver sólo los libros disponibles:
+
+URL: http://localhost:3000/api/libros/disponibles
+
+Filtrar por una categoría existente:
+
+URL: http://localhost:3000/api/libros/categoria/redes
+
+Probar el manejo de errores:
+
+URL: http://localhost:3000/api/libros/categoria/programacion-avanzada
